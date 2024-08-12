@@ -6,7 +6,7 @@ import Cards.CardEffect;
 
 import java.util.Scanner;
 
-public class ChaneColorAbility implements CardAbility {
+public class ChangeColorAbility implements CardAbility {
 
 
     @Override

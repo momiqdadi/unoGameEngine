@@ -50,8 +50,6 @@ public class Deck {
     public void initDeck(){
         ArrayList<String> colors = new ArrayList<>();
         ArrayList<String> values = new ArrayList<>();
-
-
         //Add All Uno Colors
         colors.add("Red");colors.add("Yellow");colors.add("Green");colors.add("Blue");colors.add("Wild");
         //Add Values of Numbers 1-9

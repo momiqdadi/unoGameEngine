@@ -1,11 +1,11 @@
 package Cards;
 
-import actionAbility.ChaneColorAbility;
+import actionAbility.ChangeColorAbility;
 
 public class WildCard extends Card {
     public WildCard(String color, String value, int score) {
         super(color, value, score);
-        setAbility(new ChaneColorAbility());
+        setAbility(new ChangeColorAbility());
     }
 
     @Override

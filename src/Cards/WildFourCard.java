@@ -1,12 +1,12 @@
 package Cards;
 
-import actionAbility.ChaneColorAbility;
+import actionAbility.ChangeColorAbility;
 import actionAbility.DrawCardsAbility;
 
 public class WildFourCard extends Card {
     public WildFourCard(String color, String value, int score) {
         super(color, value, score);
-        setAbility(new ChaneColorAbility());
+        setAbility(new ChangeColorAbility());
         setAbility(new DrawCardsAbility());
     }
 
