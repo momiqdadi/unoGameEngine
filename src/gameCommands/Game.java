@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public abstract class Game {
-    private int score = 500;
+    private int score = 100;
     private ArrayList<Player> players ;
     private int numberOfPlayers;
 
